@@ -3,7 +3,7 @@
     <table class="table table-bordered table-striped">
       <thead class="thead-dark">
       <tr>
-        <th scope="col">#</th>
+        <th scope="col">ID</th>
         <th scope="col">Name</th>
         <th scope="col">Age</th>
         <th scope="col"></th>
@@ -17,9 +17,12 @@
         <td>{{ user.age }}</td>
         <td><button type="button" class="btn btn-outline-danger" (click)="deleteItem(user.id, i)">Delete</button></td>
         <td>
-        <a routerLink="/updateUser">
-          <button type="button" class="btn btn-outline-warning">Edit</button>
-        </a>
+<!--          this.router.navigate(['/users']);-->
+
+<!--         routerLink="/updateUser?id=${{user.id}}"-->
+
+          <button (click)="gotoUpdateList(this.user.id)" class = "btn btn-outline-warning">Edit</button>
+
         </td>
       </tr>
       </tbody>
