@@ -8,6 +8,5 @@
 
 ## 8/16~8/18完成實作課程(二)
 
-![]([https://i.imgur.com/EztdNAd.png)
+![](https://i.imgur.com/EztdNAd.png)
 
-![](https://i.imgur.com/AaCNN9U.png)
