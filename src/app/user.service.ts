@@ -23,12 +23,9 @@ export class UserService {
     return this.http.delete<User>(`${this.usersUrl}/${id}`)
   }
 
-  //  httpOptions = {
-  //   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
-  // };
-  //
-  // public update(id :string, useData : User): Observable<any>{
-  //   return this.http.put<User>(this.usersUrl + id, useData, this.httpOptions)
-  //
-  // }
+
+
+  public update(id :string, useData : User): Observable<any>{
+    return this.http.put<User>(this.usersUrl + id, useData)
+  }
 }

@@ -22,8 +22,4 @@ export class UserListComponent implements OnInit {
       this.users.splice(index, 1);
     });
   }
-
-  updateUser(id: string, i: number){
-
-  }
 }

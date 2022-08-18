@@ -7,12 +7,14 @@ import { UserListComponent } from './user-list/user-list.component';
 import { UserFormComponent } from './user-form/user-form.component';
 import {FormsModule} from "@angular/forms";
 import { UserService } from './user.service';
+import { UserUpdateFromComponent } from './user-update-from/user-update-from.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserListComponent,
-    UserFormComponent
+    UserFormComponent,
+    UserUpdateFromComponent
   ],
     imports: [
         BrowserModule,
