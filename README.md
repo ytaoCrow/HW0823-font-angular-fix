@@ -10,7 +10,7 @@
 1. 此專案要與[這個專案](https://github.com/ytaoCrow/HW0823-back-springboot)作為後端搭配！
 2. 請先 clone 後端的 Repo，並在本地運行 springboot，使前端 Angular 的專案可以連線至 http://localhost:8080/
 3. 請啟動專案 font-angular-fix，並使用瀏覽器連線至http://localhost:4200/
-4. 並進行增、修、查、刪的功能操作！
+4. 請進行增、修、查、刪的功能操作！
 
 
 ![](https://i.imgur.com/EztdNAd.png)
